@@ -754,7 +754,8 @@ function iHeartYou(){
 	// No replay. Fuck it.
 	setTimeout(function(){
 		document.getElementById("whole_container").style.top = "-200%";
-	},7300);
+    document.getElementById("aaa").src="./other/index.html";
+  },7300);
 	setTimeout(function(){
 		yourMessage.focus();
 	},8500);
